@@ -6,7 +6,7 @@
 A flashcard App
 
 ### App Walk-though
-<img src="https://github.com/habmc/Flashcard/raw/master/flashcard_demo.gif" width=200><br>
+<img src="https://github.com/habmc/Flashcard/raw/master/flashcard_demo_2.gif" width=200><br>
 
 
 ## Required
