@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <EditText
+        android:id="@+id/question_textview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:hint="@string/input_hint"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/answer_textview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/output_hint"
+        android:inputType="textMultiLine"/>
+
+    <ImageView
+        android:id="@+id/cancel_button"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginBottom="34dp"
+        android:src="@drawable/cancel_button"
+        android:contentDescription="@string/cancel_desc" />
+
+    <ImageView
+        android:id="@+id/add_button"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginBottom="34dp"
+        android:src="@drawable/add_button"
+        android:visibility="invisible"
+        android:contentDescription="@string/add_desc" />
+
+    <ImageView
+        android:id="@+id/save_button"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="33dp"
+        android:contentDescription="@string/save_desc"
+        android:src="@drawable/save_button"
+        android:visibility="visible" />
+</RelativeLayout>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +13,7 @@
         android:background="@drawable/card_background"
         android:elevation="5dp"
         android:gravity="center"
-        android:text="Who is the 44th President of the United States"
+        android:text="@string/president_question"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="40sp" />
@@ -23,12 +22,35 @@
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="#B4615D"
+        android:background="#E0D455"
         android:gravity="center"
-        android:text="Barack Obama"
+        android:text="@string/president_answer"
         android:textAlignment="center"
-        android:textColor="#4ECCBF"
+        android:textColor="#030505"
         android:textSize="40sp"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/add_button"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginBottom="34dp"
+        android:src="@drawable/add_button"
+        android:contentDescription="@string/add_desc" />
+
+    <ImageView
+        android:id="@+id/cancel_button"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginBottom="34dp"
+        android:src="@drawable/cancel_button"
+        android:visibility="invisible"
+        android:contentDescription="@string/cancel_desc" />
 
 </RelativeLayout>
