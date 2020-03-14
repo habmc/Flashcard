@@ -7,4 +7,6 @@
     <string name="cancel_desc">Cancel Button</string>
     <string name="add_desc">Add Button</string>
     <string name="save_desc">Save Button</string>
+    <string name="next_button">Next Button</string>
+    <string name="delete_button">Delete Button</string>
 </resources>
